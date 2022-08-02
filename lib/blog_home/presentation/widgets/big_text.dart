@@ -18,6 +18,7 @@ class BigText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       text,
+      maxLines: 4,
       style: TextStyle(
         color: color,
         fontSize: size,
